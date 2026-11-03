@@ -59,30 +59,36 @@ The database contains one table: `sensor_hardware_status`.
 | `battery_level_pct` | `INT` | Battery level as a percentage |
 | `status` | `VARCHAR(20)` | `Online`, `Offline`, or `Maintenance` |
 
-The seed data contains 20 sample station records:
+The seed data contains 43 sensor records across 26 sample locations:
 
-| Location ID | District | Sensor Type | Battery | Status |
-|---|---|---|---:|---|
-| `LK-11` | Colombo | Rain Gauge | 92% | Online |
-| `LK-12` | Gampaha | AQI Monitor | 81% | Online |
-| `LK-13` | Kalutara | Anemometer | 74% | Online |
-| `LK-21` | Kandy | Anemometer | 78% | Online |
-| `LK-23` | Nuwara Eliya | Rain Gauge | 57% | Maintenance |
-| `LK-31` | Galle | Rain Gauge | 18% | Offline |
-| `LK-32` | Matara | AQI Monitor | 88% | Online |
-| `LK-33` | Hambantota | Anemometer | 69% | Online |
-| `LK-41` | Jaffna | Anemometer | 38% | Maintenance |
-| `LK-42` | Kilinochchi | AQI Monitor | 11% | Offline |
-| `LK-51` | Batticaloa | AQI Monitor | 45% | Maintenance |
-| `LK-52` | Ampara | Rain Gauge | 83% | Online |
-| `LK-61` | Kurunegala | Anemometer | 87% | Online |
-| `LK-62` | Puttalam | Rain Gauge | 91% | Online |
-| `LK-71` | Anuradhapura | Rain Gauge | 76% | Online |
-| `LK-72` | Polonnaruwa | AQI Monitor | 52% | Maintenance |
-| `LK-81` | Badulla | AQI Monitor | 64% | Maintenance |
-| `LK-82` | Monaragala | Anemometer | 6% | Offline |
-| `LK-91` | Ratnapura | AQI Monitor | 72% | Online |
-| `LK-92` | Kegalle | Rain Gauge | 9% | Offline |
+| Location ID | District |
+|---|---|
+| `colombo_01` | Colombo |
+| `gampaha_01` | Gampaha |
+| `kalutara_01` | Kalutara |
+| `kandy_01` | Kandy |
+| `matale_01` | Matale |
+| `nuwara_eliya_01` | Nuwara Eliya |
+| `galle_01` | Galle |
+| `matara_01` | Matara |
+| `hambantota_01` | Hambantota |
+| `jaffna_01` | Jaffna |
+| `kilinochchi_01` | Kilinochchi |
+| `mannar_01` | Mannar |
+| `vavuniya_01` | Vavuniya |
+| `mullaitivu_01` | Mullaitivu |
+| `batticaloa_01` | Batticaloa |
+| `ampara_01` | Ampara |
+| `trincomalee_01` | Trincomalee |
+| `kurunegala_01` | Kurunegala |
+| `puttalam_01` | Puttalam |
+| `anuradhapura_01` | Anuradhapura |
+| `polonnaruwa_01` | Polonnaruwa |
+| `badulla_01` | Badulla |
+| `monaragala_01` | Monaragala |
+| `ratnapura_01` | Ratnapura |
+| `kegalle_01` | Kegalle |
+| `embilipitiya_01` | Embilipitiya |
 
 ## Useful MySQL Commands
 
